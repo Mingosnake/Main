@@ -38,3 +38,12 @@ git push -u origin main
 git clone [repo address]
 git branch -M main
 git push -u origin main
+
+
+
+<pull forcely to overwrite>:
+
+git fetch --all
+git reset --hard origin/main
+git pull origin main
+
