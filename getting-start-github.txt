@@ -36,6 +36,5 @@ git push -u origin main
 <clone an existing repository>:
 
 git clone [repo address]
-git remote add origin [repo address]
 git branch -M main
 git push -u origin main
