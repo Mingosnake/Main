@@ -1,0 +1,17 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#336699",
+        "editor.selectionHighlightBackground": "#ffffff33",
+        "editor.findMatchBackground": "#336699",
+        "editor.findMatchHighlightBackground": "#ffffff33",
+        "editor.wordHighlightBackground": "#00000000",
+        "editor.wordHighlightBorder": "#00BBEE",
+        "editor.wordHighlightStrongBackground": "#00000000",
+        "editor.wordHighlightStrongBorder": "#00BBEE",
+    },
+    "editor.rulers": [
+        80,
+    ],
+    "workbench.colorTheme": "Material Night Eighties",
+    "editor.minimap.enabled": false,
+}
