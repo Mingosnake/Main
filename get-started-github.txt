@@ -10,7 +10,7 @@ git config --global user.name "[name]"
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout [seconds]'
 
-<when you input password, input personal access token>
+<when you have to enter password, enter the personal access token>
 
 
 
