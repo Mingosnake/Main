@@ -13,6 +13,9 @@
         "editor.wordHighlightStrongBackground": "#00000000",
         "editor.wordHighlightStrongBorder": "#00BBEE",
     },
+    "editor.tokenColorCustomizations": {
+        "comments": "#529949"
+    },
     "editor.rulers": [
         80,
     ],
