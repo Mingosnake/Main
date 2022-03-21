@@ -12,6 +12,9 @@
         "editor.wordHighlightBorder": "#00BBEE",
         "editor.wordHighlightStrongBackground": "#00000000",
         "editor.wordHighlightStrongBorder": "#00BBEE",
+        "editorBracketHighlight.foreground1": "#87cefa",
+        "editorBracketHighlight.foreground2": "#d970d5",
+        "editorBracketHighlight.foreground3": "#ffd300",
     },
     "editor.tokenColorCustomizations": {
         "comments": "#529949"
