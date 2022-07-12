@@ -25,11 +25,13 @@ git push -u origin main
 
 
 
-<push an existing repository from the command line>:
+<create a new git repo and push to existing remote repo on the command line>:
 
+git init
 git remote add origin [repo address]
+git pull origin main
 git branch -M main
-git push -u origin main
+git branch --set-upstream-to=origin/main
 
 
 
