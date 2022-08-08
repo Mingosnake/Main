@@ -5,6 +5,11 @@ git config --global user.name "[name]"
 
 
 
+<configure default initial branch>
+git config --global init.defaultBranch main
+
+
+
 <configure push default option>
 git config --global push.default current
 
@@ -13,7 +18,7 @@ git config --global push.default current
 <configure credential helper>:
 
 git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout [seconds]'
+git config --global credential.helper 'cache --timeout=[seconds]'
 
 <when you have to enter password, enter the personal access token>
 
@@ -24,7 +29,6 @@ git config --global credential.helper 'cache --timeout [seconds]'
 git init
 git add README.md
 git commit -m "first commit"
-git branch -M main
 git remote add origin [repo address]
 git push -u
 
@@ -37,7 +41,6 @@ git remote add origin [repo address]
 git pull origin main
 git add *
 git commit -m "Initial commit"
-git branch -M main
 git push -u
 
 
@@ -45,7 +48,6 @@ git push -u
 <clone an existing repository>:
 
 git clone [repo address]
-git branch -M main
 git push -u
 
 
@@ -54,5 +56,4 @@ git push -u
 
 git fetch --all
 git reset --hard origin/main
-git branch -M main
 git push -u origin main
