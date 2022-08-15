@@ -17,8 +17,8 @@ git config --global push.default current
 
 <configure credential helper>:
 
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=[seconds]'
+git config --global credential.credentialStore cache
+git config --global credential.cacheOptions "--timeout [seconds]"
 
 <when you have to enter password, enter the personal access token>
 
