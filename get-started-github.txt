@@ -24,24 +24,14 @@ git config --global credential.cacheOptions "--timeout [seconds]"
 
 
 
-<create a new repository on the command line>:
-
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin [repo address]
-git push -u
-
-
-
 <create a new git repo and push to existing remote repo on the command line>:
 
 git init
-git remote add origin [repo address]
-git pull origin main
-git add *
+git add -A
 git commit -m "Initial commit"
-git push -u
+git remote add origin [repo address]
+git branch -M main
+git push -u origin main
 
 
 
